@@ -1,12 +1,12 @@
 server
 {
 	listen 80;
-	server_name   wp.example.net;
+	server_name	wp.example.net;
 
-	root                    /var/www/wp;
-	index		                index.php
-	access_log              /var/log/nginx/wp-access_log;
-	error_log               /var/log/nginx/wp-error_log;
+	root		/var/www/wp;
+	index		index.php
+	access_log	/var/log/nginx/wp-access_log;
+	error_log	/var/log/nginx/wp-error_log;
 	
 	location /
 	{
