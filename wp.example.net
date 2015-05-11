@@ -1,7 +1,7 @@
 server
 {
 	listen 80;
-	server_name	wp.example.net;
+	server_name	186.2.167.245;
 
 	root		/var/www/wp;
 	index		index.php
