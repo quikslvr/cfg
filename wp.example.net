@@ -3,7 +3,7 @@ server
 	listen 80;
 	server_name	186.2.167.245;
 
-	root		/var/www/wp;
+	root		/var/www/wp/wordpress;
 	index		index.php
 	access_log	/var/log/nginx/wp-access_log;
 	error_log	/var/log/nginx/wp-error_log;
